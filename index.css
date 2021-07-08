@@ -13,12 +13,21 @@ h1{
 ul li{
     padding: .5em;
 }
+li button {
+    border-radius: 3px;
+    background-color: gray;
+    color: #fff;
+    padding: 5px;
+}
 input{
-    font-size: 1em;
+    font-size: 0.8em;
     border: none;
     border-radius: 5px;
     padding: 3px;
     background-color: beige;
+}
+#hex-color{
+    width: 20%;
 }
 #display-color{
     height: 10em;
@@ -45,12 +54,13 @@ input{
 @media only screen and (max-width: 800px) {
     body{
         width: 90%;
+        font-size: 1.2em;
     }
     h1{
         font-size: 1.2em;
     }
     input{
-        font-size: 0.9em;
+        font-size: 0.7em;
     }
     ul li{
         padding: .2em;
