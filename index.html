@@ -20,14 +20,16 @@
                 <input type="color" value="#ffffff" id="pick-color" name="pick-color" />, 
             </li>
             <li>
-                write it in 
-                <input type="text" maxlength="7" placeholder="hexadecimal (#123456)" id="hex-color" />
+                write it in hex
+                <input type="text" maxlength="7" placeholder="#123456" id="hex-color" />
+                <button id="copy-hex">copy hex</button>
             </li>
             <li>
                 or in
                 rgb(<input type="number" min="0" maxlength="3" max="255" name="r-part" id="r-part" placeholder="R" />,
                 <input type="number" min="0" maxlength="3" max="255" name="g-part" id="g-part" placeholder="G" />,
                 <input type="number" min="0" maxlength="3" max="255" name="b-part" id="b-part" placeholder="B" />)
+                <button id="copy-rgb">copy rgb</button>
             </li>
         </ul>
     </section>
